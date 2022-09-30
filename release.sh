@@ -158,7 +158,10 @@ function GenerateRules() {
                 # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
                 # "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA"
                 # Private
-                "https://dns-jp-cloudflare.jimmyshjj.top/dns-query/tencentcloud"
+                #"https://dns-jp-cloudflare.jimmyshjj.top/dns-query/tencentcloud"
+                # DNS.SB
+                "https://185.222.222.222/dns-query"
+                "https://45.11.45.11/dns-query"
                 # Others
                 # "https://doh.applied-privacy.net/query"
                 # "https://private.canadianshield.cira.ca/dns-query"
