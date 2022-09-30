@@ -163,7 +163,7 @@ function GenerateRules() {
                 "https://208.67.222.222"
                 "https://208.67.220.220"
                 "tls://208.67.222.222"
-                "tls:// 208.67.220.220"
+                "tls://208.67.220.220"
                 "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
                 # Tiar
                 # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
