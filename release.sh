@@ -141,7 +141,7 @@ function GenerateRules() {
                 #"tls://dns-unfiltered.adguard.com"
                 #"quic://dns-unfiltered.adguard.com"
                 #"https://dns-unfiltered.adguard.com/dns-query"
-                "https://94.140.14.140/dns-query"
+                #"https://94.140.14.140/dns-query"
                 "https://94.140.14.141/dns-query"
                 "quic://94.140.14.140"
                 "quic://94.140.14.141"
