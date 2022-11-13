@@ -160,8 +160,8 @@ function GenerateRules() {
                 "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
                 # Cisco
                 #"https://doh.opendns.com/dns-query"
-                "https://208.67.222.222"
-                "https://208.67.220.220"
+                "https://208.67.222.222/dns-query"
+                "https://208.67.220.220/dns-query"
                 "tls://208.67.222.222"
                 "tls://208.67.220.220"
                 "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
