@@ -116,11 +116,11 @@ function GenerateRules() {
         adguardhome)
             domestic_dns=(
                 "https://dns.alidns.com/dns-query"
-                "tls://dns.alidns.com"
+                #"tls://dns.alidns.com"
                 "https://doh.360.cn/dns-query"
-                "tls://dot.360.cn"
+                #"tls://dot.360.cn"
                 "https://doh.pub/dns-query"
-                "tls://dot.pub"
+                #"tls://dot.pub"
                 # "https://dns.ipv6dns.com/dns-query"
                 # "tls://dns.ipv6dns.com"
             )
