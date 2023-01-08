@@ -206,7 +206,7 @@
 #
 (@%!)jimmyshjj.top
 (@%!)mcdn.bilivideo.cn
-(@%!)cn
+(@%!)*.cn
 (@%!)301.sh
 
 ## 自定义规则 - 结束
