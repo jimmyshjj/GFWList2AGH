@@ -156,6 +156,7 @@
 (@&!)redirector.googlevideo.com
 (@%!)google.cn
 (@%!)g.cn
+(@%!)gstatic.cn
 
 # it-global.cn #8
 (@%!)it-global.cn
