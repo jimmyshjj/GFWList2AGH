@@ -157,6 +157,7 @@
 (@%!)google.cn
 (@%!)g.cn
 (@%!)gstatic.cn
+(@&!)googleads.g.doubleclick.net
 
 # it-global.cn #8
 (@%!)it-global.cn
