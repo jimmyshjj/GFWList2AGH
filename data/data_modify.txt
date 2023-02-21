@@ -106,7 +106,7 @@
 # 必应
 (@%!)cn.bing.com
 (@%!)cn.bing.net
-(@%!)www.bing.com
+(@&!)www.bing.com
 
 # 苍穹の下
 #(@&!)000714.xyz
