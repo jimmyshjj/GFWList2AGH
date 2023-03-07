@@ -211,7 +211,7 @@
 (@%!)jimmyshjj.top
 (@%!)mcdn.bilivideo.cn
 (@%!)301.sh
-(@%!)*.gov.cn
+(@%!)gov.cn
 (@%!)beian.gov.cn
 (@%!)www.beian.gov.cn
 
