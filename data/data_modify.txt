@@ -213,5 +213,6 @@
 (@%!)301.sh
 (@%!)gov.cn
 (@%!)beian.gov.cn
+(@%!)www.beian.gov.cn
 
 ## 自定义规则 - 结束
