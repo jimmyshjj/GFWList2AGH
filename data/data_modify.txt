@@ -211,5 +211,6 @@
 (@%!)jimmyshjj.top
 (@%!)mcdn.bilivideo.cn
 (@%!)301.sh
+(@%!)gov.cn
 
 ## 自定义规则 - 结束
