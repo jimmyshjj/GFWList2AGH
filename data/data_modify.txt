@@ -214,5 +214,6 @@
 (@%!)gov.cn
 (@%!)beian.gov.cn
 (@%!)www.beian.gov.cn
+(@&!)library.ac.cn
 
 ## 自定义规则 - 结束
