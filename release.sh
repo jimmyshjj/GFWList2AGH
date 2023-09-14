@@ -126,10 +126,13 @@ function GenerateRules() {
             )
             foreign_dns=(
                 # Cloudflare
-                "https://dns.cloudflare.com/dns-query"
+                # "https://dns.cloudflare.com/dns-query"
+                "h3://dns.cloudflare.com/dns-query"
                 "https://1.0.0.1/dns-query"
+                "h3://1.0.0.1/dns-query"
                 "tls://1.0.0.1"
                 # "https://1.1.1.1/dns-query"
+                # "h3://1.1.1.1/dns-query"
                 # "tls://1.1.1.1"
                 # Google
                 # "https://dns.google/dns-query"
@@ -139,23 +142,24 @@ function GenerateRules() {
                 "https://101.101.101.101/dns-query"
                 "tls://101.101.101.101"
                 # ADGUARD-unfiltered
-                "tls://dns-unfiltered.adguard.com"
+                # "tls://dns-unfiltered.adguard.com"
                 "quic://dns-unfiltered.adguard.com"
                 # "https://dns-unfiltered.adguard.com/dns-query"
+                "h3://dns-unfiltered.adguard.com/dns-query"
                 "https://94.140.14.140/dns-query"
                 "https://94.140.14.141/dns-query"
-                # "quic://94.140.14.140"
-                # "quic://94.140.14.141"
+                "tls://94.140.14.140"
+                "tls://94.140.14.141"
                 # "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
                 # Yandex
                 # "sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA"
                 # Quad9-unfiltered
                 # "https://dns10.quad9.net/dns-query"
-                "tls://dns10.quad9.net"
+                # "tls://dns10.quad9.net"
                 "https://9.9.9.10/dns-query"
                 "https://149.112.112.10/dns-query"
-                #"tls://9.9.9.10"
-                #"tls://149.112.112.10"
+                "tls://9.9.9.10"
+                "tls://149.112.112.10"
                 # "sdns://AQMAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
                 # Comodo
                 # "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
