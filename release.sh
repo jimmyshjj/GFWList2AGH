@@ -150,7 +150,7 @@ function GenerateRules() {
                 "https://94.140.14.141/dns-query"
                 "tls://94.140.14.140"
                 "tls://94.140.14.141"
-                # "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
+                "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
                 # Yandex
                 # "sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA"
                 # Quad9-unfiltered
@@ -169,7 +169,7 @@ function GenerateRules() {
                 "https://208.67.220.220/dns-query"
                 "tls://208.67.222.222"
                 "tls://208.67.220.220"
-                # "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
+                "sdns://AQAAAAAAAAAADjIwOC42Ny4yMjAuMjIwILc1EUAgbyJdPivYItf9aR6hwzzI1maNDL4Ev6vKQ_t5GzIuZG5zY3J5cHQtY2VydC5vcGVuZG5zLmNvbQ"
                 # Tiar
                 # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
                 # "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA"
@@ -178,6 +178,9 @@ function GenerateRules() {
                 # DNS.SB
                 # "https://185.222.222.222/dns-query"
                 # "https://45.11.45.11/dns-query"
+                # CleanBrowser
+                # "https://doh.cleanbrowsing.org/doh/security-filter/"
+                "tls://security-filter-dns.cleanbrowsing.org"
                 # Others
                 # "https://doh.applied-privacy.net/query"
                 # "https://private.canadianshield.cira.ca/dns-query"
