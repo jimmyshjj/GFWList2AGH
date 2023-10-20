@@ -217,4 +217,5 @@
 (@&!)library.ac.cn
 (@%!)jamcz.com
 (@%!)paypalobjects.com
+(@%!)paypal.com
 ## 自定义规则 - 结束
