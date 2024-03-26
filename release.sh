@@ -143,11 +143,15 @@ function GenerateRules() {
                 "tls://101.101.101.101"
                 # ADGUARD-unfiltered
                 # "tls://dns-unfiltered.adguard.com"
-                "quic://dns-unfiltered.adguard.com"
+                # "quic://dns-unfiltered.adguard.com"
                 # "https://dns-unfiltered.adguard.com/dns-query"
-                "h3://dns-unfiltered.adguard.com/dns-query"
+                # "h3://dns-unfiltered.adguard.com/dns-query"
+                "quic://94.140.14.140"
+                "quic://94.140.14.141"
                 "https://94.140.14.140/dns-query"
                 "https://94.140.14.141/dns-query"
+                "h3://94.140.14.140/dns-query"
+                "h3://94.140.14.141/dns-query"
                 "tls://94.140.14.140"
                 "tls://94.140.14.141"
                 "sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t"
@@ -156,11 +160,13 @@ function GenerateRules() {
                 # Quad9-unfiltered
                 # "https://dns10.quad9.net/dns-query"
                 # "tls://dns10.quad9.net"
-                "https://9.9.9.10/dns-query"
-                "https://149.112.112.10/dns-query"
-                "tls://9.9.9.10"
-                "tls://149.112.112.10"
+                # "https://9.9.9.10/dns-query"
+                # "https://149.112.112.10/dns-query"
+                # "tls://9.9.9.10"
+                # "tls://149.112.112.10"
                 # "sdns://AQMAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
+                "sdns://AQMAAAAAAAAADTkuOS45LjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
+                "sdns://AQMAAAAAAAAAEzE0OS4xMTIuMTEyLjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
                 # Comodo
                 # "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
                 # Cisco
@@ -179,12 +185,13 @@ function GenerateRules() {
                 # "https://185.222.222.222/dns-query"
                 # "https://45.11.45.11/dns-query"
                 # CleanBrowser
-                # "https://doh.cleanbrowsing.org/doh/security-filter/"
+                "https://doh.cleanbrowsing.org/doh/security-filter/"
                 "tls://security-filter-dns.cleanbrowsing.org"
                 # Others
                 # "https://doh.applied-privacy.net/query"
                 # "https://private.canadianshield.cira.ca/dns-query"
                 # "https://dns.digitalsize.net/dns-query"
+                "https://dns.bebasid.com/unfiltered"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
