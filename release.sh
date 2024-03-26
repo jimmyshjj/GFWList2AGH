@@ -127,7 +127,7 @@ function GenerateRules() {
             foreign_dns=(
                 # Cloudflare
                 # "https://dns.cloudflare.com/dns-query"
-                "h3://dns.cloudflare.com/dns-query"
+                # "h3://dns.cloudflare.com/dns-query"
                 "https://1.0.0.1/dns-query"
                 "h3://1.0.0.1/dns-query"
                 "tls://1.0.0.1"
