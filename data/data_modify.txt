@@ -218,4 +218,5 @@
 (@%!)jamcz.com
 (@%!)paypalobjects.com
 (@%!)paypal.com
+(@&!)dockerproxy.com
 ## 自定义规则 - 结束
