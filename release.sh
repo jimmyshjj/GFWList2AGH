@@ -184,20 +184,22 @@ function GenerateRules() {
                 # Tiar
                 # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
                 # "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA"
-                # Private
-                # "https://dns-jp-cloudflare.jimmyshjj.top/dns-query/tencentcloud"
                 # DNS.SB
                 # "https://185.222.222.222/dns-query"
                 # "https://45.11.45.11/dns-query"
                 # CleanBrowser
                 "https://doh.cleanbrowsing.org/doh/security-filter/"
                 "tls://security-filter-dns.cleanbrowsing.org"
+                # NextDNS
+                "h3://dns.nextdns.io"
+                "https://dns.nextdns.io"
+                # BebasDNS
+                "https://dns.bebasid.com/unfiltered"
+                "sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6ODQ0MyAxXDKkdrOao8ZeLyu7vTnVrT0C7YlPNNf6trdMkje7QR8yLmRuc2NyeXB0LWNlcnQuZG5zLmJlYmFzaWQuY29t"
                 # Others
                 # "https://doh.applied-privacy.net/query"
                 # "https://private.canadianshield.cira.ca/dns-query"
                 # "https://dns.digitalsize.net/dns-query"
-                "https://dns.bebasid.com/unfiltered"
-                "h3://dns.nextdns.io"
                 "https://wikimedia-dns.org/dns-query"
             )
             function GenerateRulesHeader() {
