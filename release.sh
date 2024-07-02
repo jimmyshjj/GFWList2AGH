@@ -197,6 +197,8 @@ function GenerateRules() {
                 # "https://private.canadianshield.cira.ca/dns-query"
                 # "https://dns.digitalsize.net/dns-query"
                 "https://dns.bebasid.com/unfiltered"
+                "h3://dns.nextdns.io"
+                "https://wikimedia-dns.org/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
