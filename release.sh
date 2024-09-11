@@ -126,8 +126,10 @@ function GenerateRules() {
             )
             foreign_dns=(
                 # Cloudflare
-                # "https://dns.cloudflare.com/dns-query"
-                # "h3://dns.cloudflare.com/dns-query"
+                "https://cloudflare-dns.com/dns-query"
+                "h3://cloudflare-dns.com/dns-query"
+                "https://dns.cloudflare.com/dns-query"
+                "h3://dns.cloudflare.com/dns-query"
                 "https://1.0.0.1/dns-query"
                 "h3://1.0.0.1/dns-query"
                 "tls://1.0.0.1"
@@ -188,11 +190,11 @@ function GenerateRules() {
                 # "https://185.222.222.222/dns-query"
                 # "https://45.11.45.11/dns-query"
                 # CleanBrowser
-                "https://doh.cleanbrowsing.org/doh/security-filter/"
+                #"https://doh.cleanbrowsing.org/doh/security-filter/"
                 "tls://security-filter-dns.cleanbrowsing.org"
                 # NextDNS
-                "h3://dns.nextdns.io"
-                "https://dns.nextdns.io"
+                #"h3://dns.nextdns.io"
+                #"https://dns.nextdns.io"
                 # BebasDNS
                 "https://dns.bebasid.com/unfiltered"
                 "sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6ODQ0MyAxXDKkdrOao8ZeLyu7vTnVrT0C7YlPNNf6trdMkje7QR8yLmRuc2NyeXB0LWNlcnQuZG5zLmJlYmFzaWQuY29t"
