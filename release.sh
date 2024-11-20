@@ -126,13 +126,19 @@ function GenerateRules() {
             )
             foreign_dns=(
                 # Cloudflare
-                "https://cloudflare-dns.com/dns-query"
-                "h3://cloudflare-dns.com/dns-query"
-                "https://dns.cloudflare.com/dns-query"
-                "h3://dns.cloudflare.com/dns-query"
+                #"https://cloudflare-dns.com/dns-query"
+                #"h3://cloudflare-dns.com/dns-query"
+                #"https://dns.cloudflare.com/dns-query"
+                #"h3://dns.cloudflare.com/dns-query"
                 "https://1.0.0.1/dns-query"
                 "h3://1.0.0.1/dns-query"
                 "tls://1.0.0.1"
+                "https://[2606:4700:4700::1111]/dns-query"
+                "https://[2606:4700:4700::1001]/dns-query"
+                "h3://[2606:4700:4700::1111]/dns-query"
+                "h3://[2606:4700:4700::1001]/dns-query"
+                "tls://[2606:4700:4700::1111]"
+                "tls://[2606:4700:4700::1001]"
                 # "https://1.1.1.1/dns-query"
                 # "h3://1.1.1.1/dns-query"
                 # "tls://1.1.1.1"
@@ -140,6 +146,10 @@ function GenerateRules() {
                 # "https://dns.google/dns-query"
                 # "tls://dns.google"
                 "tls://8.8.4.4"
+                "tls://[2001:4860:4860::8888]"
+                "tls://[2001:4860:4860::8844]"
+                "h3://[2001:4860:4860::8888]/dns-query"
+                #"h3://[2001:4860:4860::8844]/dns-query
                 # Quad101
                 "https://101.101.101.101/dns-query"
                 "tls://101.101.101.101"
@@ -167,19 +177,28 @@ function GenerateRules() {
                 # "tls://9.9.9.10"
                 # "tls://149.112.112.10"
                 # "sdns://AQMAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
-                # Quad9-ecs-unfilitered
-                "tls://9.9.9.12"
-                "tls://149.112.112.12"
-                "https://9.9.9.12/dns-query"
-                "https://149.112.112.12/dns-query"
-                "sdns://AQYAAAAAAAAADTkuOS45LjEyOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
-                "sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEyOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
+                # Quad9-ecs-filitered
+                "tls://9.9.9.11"
+                "tls://149.112.112.11"
+                "https://9.9.9.11/dns-query"
+                "https://149.112.112.11/dns-query"
+                "tls://[2620:fe::11]"
+                "tls:/[2620:fe::fe:11]"
+                "https://[2620:fe::11]/dns-query"
+                "https://[2620:fe::fe:11]/dns-query"
+                "sdns://AQMAAAAAAAAADTkuOS45LjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
+                "sdns://AQMAAAAAAAAAEzE0OS4xMTIuMTEyLjExOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA"
+                "sdns://AQMAAAAAAAAAElsyNjIwOmZlOjoxMV06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0"
+                "sdns://AQMAAAAAAAAAFVsyNjIwOmZlOjpmZToxMV06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0"
                 # Comodo
                 # "sdns://AQAAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ"
                 # Cisco
                 # "https://doh.opendns.com/dns-query"
+                "https://dns.umbrella.com/dns-query"
                 "https://208.67.222.2/dns-query"
                 "https://208.67.220.2/dns-query"
+                "tls://2620:0:ccc::2"
+                "tls://2620:0:ccd::2"
                 "tls://208.67.222.2"
                 "tls://208.67.220.2"
                 "sdns://AQUAAAAAAAAADDE0Ni4xMTIuNDEuNCC3NRFAIG8iXT4r2CLX_WkeocM8yNZmjQy-BL-rykP7eRsyLmRuc2NyeXB0LWNlcnQub3BlbmRucy5jb20"
@@ -196,13 +215,13 @@ function GenerateRules() {
                 #"h3://dns.nextdns.io"
                 #"https://dns.nextdns.io"
                 # BebasDNS
-                "https://dns.bebasid.com/unfiltered"
-                "sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6ODQ0MyAxXDKkdrOao8ZeLyu7vTnVrT0C7YlPNNf6trdMkje7QR8yLmRuc2NyeXB0LWNlcnQuZG5zLmJlYmFzaWQuY29t"
+                # "https://dns.bebasid.com/unfiltered"
+                # "sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6ODQ0MyAxXDKkdrOao8ZeLyu7vTnVrT0C7YlPNNf6trdMkje7QR8yLmRuc2NyeXB0LWNlcnQuZG5zLmJlYmFzaWQuY29t"
                 # Others
                 # "https://doh.applied-privacy.net/query"
                 # "https://private.canadianshield.cira.ca/dns-query"
                 # "https://dns.digitalsize.net/dns-query"
-                "https://wikimedia-dns.org/dns-query"
+                # "https://wikimedia-dns.org/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
