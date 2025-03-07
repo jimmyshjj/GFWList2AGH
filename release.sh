@@ -211,7 +211,7 @@ function GenerateRules() {
                 #"https://doh.cleanbrowsing.org/doh/security-filter/"
                 #"tls://security-filter-dns.cleanbrowsing.org"
                 # NextDNS
-                "h3://dns.nextdns.io"
+                #"h3://dns.nextdns.io"
                 #"https://dns.nextdns.io"
                 "h3://anycast.dns.nextdns.io"
                 #"https://anycast.dns.nextdns.io"
