@@ -127,7 +127,7 @@ function GenerateRules() {
             foreign_dns=(
                 # Cloudflare
                 #"https://cloudflare-dns.com/dns-query"
-                #"h3://cloudflare-dns.com/dns-query"
+                "h3://cloudflare-dns.com/dns-query"
                 #"https://dns.cloudflare.com/dns-query"
                 #"h3://dns.cloudflare.com/dns-query"
                 #"https://1.0.0.1/dns-query"
@@ -141,7 +141,7 @@ function GenerateRules() {
                 "tls://[2606:4700:4700::1001]"
                 # "https://1.1.1.1/dns-query"
                 # "h3://1.1.1.1/dns-query"
-                # "tls://1.1.1.1"
+                "tls://1.1.1.1"
                 # Google
                 # "https://dns.google/dns-query"
                 # "tls://dns.google"
@@ -202,8 +202,7 @@ function GenerateRules() {
                 #"tls://208.67.220.2"
                 "sdns://AQUAAAAAAAAADDE0Ni4xMTIuNDEuNCC3NRFAIG8iXT4r2CLX_WkeocM8yNZmjQy-BL-rykP7eRsyLmRuc2NyeXB0LWNlcnQub3BlbmRucy5jb20"
                 # Tiar
-                # "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA"
-                # "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA"
+                "h3://doh.tiarap.org/dns-query"
                 # DNS.SB
                 # "https://185.222.222.222/dns-query"
                 # "https://45.11.45.11/dns-query"
@@ -221,13 +220,14 @@ function GenerateRules() {
                 # "https://dns.bebasid.com/unfiltered"
                 # "sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6ODQ0MyAxXDKkdrOao8ZeLyu7vTnVrT0C7YlPNNf6trdMkje7QR8yLmRuc2NyeXB0LWNlcnQuZG5zLmJlYmFzaWQuY29t"
                 # dns0.eu
-                "quic://dns0.eu"
+                #"quic://dns0.eu"
                 #"tls://dns0.eu"
                 #"https://dns0.eu/"
-                "h3://dns0.eu/"
+                #"h3://dns0.eu/"
                 # RethinkDNS
-                "h3://basic.rethinkdns.com/"
                 "tls://max.rethinkdns.com"
+                "h3://basic.rethinkdns.com"
+                "h3://sky.rethinkdns.com"
                 # UK DNS Privacy Project
                 "https://resolver.dnsprivacy.org.uk/dns-query"
                 "tls://resolver.dnsprivacy.org.uk"
