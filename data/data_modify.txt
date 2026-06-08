@@ -201,4 +201,13 @@
 # 治杰 Online
 (@&!)zhijie.online
 
+#
+(@%!)yuanshen.com
+(@%!)jimmyshjj.top
+(@%!)mcdn.bilivideo.cn
+(@%!)gov.cn
+(@%!)beian.gov.cn
+(@%!)www.beian.gov.cn
+(@&!)library.ac.cn
+(@%!)jamcz.com
 ## 自定义规则 - 结束
