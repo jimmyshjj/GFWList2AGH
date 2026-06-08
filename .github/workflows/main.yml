@@ -1,4 +1,4 @@
-name: Build & Release hezhijie0327/GFWList2AGH
+name: Build & Release jimmyshjj/GFWList2AGH
 
 on:
   schedule:
