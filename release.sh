@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${SCRIPT_DIR}/dns.conf"
+
 ## How to get and use?
 # git clone "https://github.com/hezhijie0327/GFWList2AGH.git" && bash ./GFWList2AGH/release.sh
 
@@ -134,26 +137,8 @@ function GenerateRules() {
     }
     case ${software_name} in
         adguardhome)
-            domestic_dns=(
-                # "https://dns.alidns.com:443/dns-query"
-                # "https://dns.ipv6dns.com:443/dns-query"
-                # "https://doh.360.cn:443/dns-query"
-                "https://doh.pub:443/dns-query"
-                # "tls://dns.alidns.com:853"
-                # "tls://dns.ipv6dns.com:853"
-                # "tls://dot.360.cn:853"
-                # "tls://dot.pub:853"
-            )
-            foreign_dns=(
-                # "https://dns.google:443/dns-query"
-                "https://dns.opendns.com:443/dns-query"
-                # "https://dns11.quad9.net:443/dns-query"
-                # "https://dns64.dns.google:443/dns-query"
-                # "tls://dns.google:853"
-                # "tls://dns.opendns.com:853"
-                # "tls://dns11.quad9.net:853"
-                # "tls://dns64.dns.google:853"
-            )
+            domestic_dns=("${adguardhome_domestic_dns[@]}")
+            foreign_dns=("${adguardhome_foreign_dns[@]}")
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
             }
@@ -207,26 +192,8 @@ function GenerateRules() {
             fi
         ;;
         adguardhome_new)
-            domestic_dns=(
-                # "https://dns.alidns.com:443/dns-query"
-                # "https://dns.ipv6dns.com:443/dns-query"
-                # "https://doh.360.cn:443/dns-query"
-                "https://doh.pub:443/dns-query"
-                "tls://dns.alidns.com:853"
-                # "tls://dns.ipv6dns.com:853"
-                # "tls://dot.360.cn:853"
-                # "tls://dot.pub:853"
-            )
-            foreign_dns=(
-                # "https://dns.google:443/dns-query"
-                "https://dns.opendns.com:443/dns-query"
-                # "https://dns11.quad9.net:443/dns-query"
-                # "https://dns64.dns.google:443/dns-query"
-                "tls://dns.google:853"
-                # "tls://dns.opendns.com:853"
-                # "tls://dns11.quad9.net:853"
-                # "tls://dns64.dns.google:853"
-            )
+            domestic_dns=("${adguardhome_new_domestic_dns[@]}")
+            foreign_dns=("${adguardhome_new_foreign_dns[@]}")
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
             }
