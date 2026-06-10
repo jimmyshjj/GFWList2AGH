@@ -210,4 +210,5 @@
 (@%!)www.beian.gov.cn
 (@&!)library.ac.cn
 (@%!)jamcz.com
+(@%!)google.cn
 ## 自定义规则 - 结束
