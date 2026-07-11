@@ -211,4 +211,7 @@
 (@&!)library.ac.cn
 (@%!)jamcz.com
 (@%!)google.cn
+(@%!)client-update.steamstatic.com
+(@%!)akamai.steamstatic.com
+(@%!)fastly.steamstatic.com
 ## 自定义规则 - 结束
