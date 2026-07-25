@@ -9497,6 +9497,7 @@ docs.cfw.lbyczf.com
 docs.com
 docs.new
 docs.rs
+docs.rw
 doctor-videos.com
 doctorvoice.org
 documentforce.com
@@ -19227,6 +19228,7 @@ locate.ac.uk
 location.microsoft.com
 lockestek.com
 lockssalliance.ac.uk
+log.rw
 logbot.net
 logi.com
 logic.ac.uk
@@ -31544,6 +31546,7 @@ truyenhentai.xyz
 truyenkk1.com
 truyentranh86.com
 truyenwk.com
+try.rw
 tryalias.com
 tryboobs.com
 trycloudflare.com
