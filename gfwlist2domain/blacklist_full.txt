@@ -7919,6 +7919,8 @@ coova.org
 copac.ac.uk
 copilot-proxy.githubusercontent.com
 copilot-stg.com
+copilot-telemetry-service.githubusercontent.com
+copilot-telemetry.githubusercontent.com
 copilot-workspace.githubnext.com
 copilot.com
 copilot.microsoft.com
@@ -16671,6 +16673,8 @@ incezt.net
 incloak.com
 inclusion.ac.uk
 inclusivegrowthscore.com
+incoming-telemetry.thunderbird.net
+incoming.telemetry.mozilla.org
 incommon-rsa.org
 incredibox.fr
 incy.cc
@@ -25957,7 +25961,6 @@ proyectoclubes.com
 prozz.net
 prpops.com
 prs-ltsn.ac.uk
-prts.plus
 prucomm.ac.uk
 prvbank.ru
 ps-exchange.com
