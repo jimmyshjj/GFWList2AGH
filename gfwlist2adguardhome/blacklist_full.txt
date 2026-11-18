@@ -1,2 +1,2 @@
-h3://dns.alidns.com:443/dns-query
-[/]h3://juuri.hagezi.org:443/dns-query
+tls://dot.360.cn:853
+[/]h3://wurzn.hagezi.org:443/dns-query
